@@ -1,0 +1,274 @@
+/*FAMYLYFONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+/*MAIN*/
+/*..NAV..*/
+header { background-color: salmon;
+    font-family: poppins;
+    background-size:cover;
+height: 90px;
+display:flex;
+justify-content: space-between;
+justify-content:flex- flex-end;
+align-items:center;
+padding: 20px;
+margin: 0px;
+position: sticky;
+top: 0%;}
+
+nav a {text-decoration: none; 
+    font-family: poppins;
+color: black;
+padding-right: 10px;
+font-weight: 500;}
+
+nav a:hover {
+    color: azure;
+}
+
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 250px;
+margin-right: 80px;}
+
+/*..HERO..*/
+.hero {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 90dvh;
+    color: rgb(255, 255, 255);
+    background-repeat:repeat;
+    background-image: url(../img/viajaaroma.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: grey;
+}
+.banner {
+    font-style: bold;
+    font-family: poppins;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(95, 158,160,.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .baner h1 {
+        margin: 0%;
+        padding:0%;
+        padding-bottom: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner a {
+        text-decoration:none;
+        color: white;
+        padding: 9px 20px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        background-color: salmon;
+    }
+
+
+
+
+/*SECTION U*/
+.contenedorCard img{
+    width: 400px;
+}
+.card img{
+    width: 400px;
+}
+.container {  display: grid;
+grid-template-rows: 1fr;
+gap: 10px 20px;
+grid-auto-flow: row;
+justify-content: center;
+align-content: space-between;
+grid-template-areas:
+    "sectionU descuentos "
+    "sectionU descuentos"
+    "sectionU descuentos"
+    "sectionU descuentos";
+}
+
+.sectionU { grid-area: sectionU; }
+
+.descuentos { grid-area: descuentos; }
+
+.descuentos{
+    font-family: poppins;
+    justify-content: right;
+    border-radius: 10%;
+    width: 40%;
+    height: 20%;
+    margin-top: 20%;
+    padding: 3%;
+    position: 0% 100%;
+}
+    .descuentos img { width: 100px; padding: px;}
+
+    .descuentos .imga{ display: flex; flex-wrap: wrap;}
+
+
+.sectionU{
+        font-family: poppins;
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+        margin: auto;
+    }
+    .h2.contenedorCard{
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        color: black;
+    }
+    .contenedorCard{
+        width: 80%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background:#fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        transition: all 400ms ease-out;
+        cursor: default;
+    }
+    
+    .ContenedorCard:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+    .contenedorCard img{
+        width: 100%;
+        height: 210px;
+    }
+
+/*SECTION D*/
+    .sectionD{
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+        margin-top: 10%;
+    }
+
+    .sectionD h2{
+        font-family: poppins;
+        margin-right: 50%;
+        width: 100%;
+        position: static;
+    }
+    
+    .sectionD iframe{
+        justify-content: space-between;
+        padding: 0%;
+    }
+
+    .sectionD{
+        font-family: poppins;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .sectionD .h2{
+        font-family: poppins;
+        margin-bottom: 20%;
+    }
+
+    .sectionD .grupa {
+        font-family: poppins;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+        overflow: hidden;
+    }
+    .sectionD .grupb {
+        font-family: poppins;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20%;
+        overflow: hidden;
+    }
+    aside.nosotros {
+        font-family: poppins;
+        margin-left: 5%;
+    }
+
+/* NOSOTROS*/
+.nosotros img {
+    font-family: poppins;
+    width: 50%;
+}
+
+.nosotros {
+    font-family: poppins;
+    display: flex;
+}
+
+/*..FOOTER..*/
+footer{ 
+    font-family: poppins;
+width: 100%;
+height: 50px
+paddinng 1212px 313px;
+background-color: salmon;
+background-size: cover; 
+}
+
+.contenedor__footer{
+    font-family: poppins;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.box__footer h2{
+    font-family: poppins;
+margin-bottom: 30px;
+color:black;
+text-decoration: none;
+font-weight: 250;
+}
+
+.box__footer a{
+    font-family: poppins;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+
+    font-weight: 250;
+}
+.box__footer ahover{
+    opacity: 0.8;
+}
+
+.container img{
+    width: 20%;
+    
+}
